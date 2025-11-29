@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://andresbuendia2020.github.io/portfolio",
+  "homepage": "https://github.com/JeffersonDevR/Protfolio.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
