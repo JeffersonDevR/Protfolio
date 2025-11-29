@@ -1,20 +1,29 @@
 import { BrowserRouter } from "react-router-dom";
+import { useEffect } from "react";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, LinkTree } from "./components";
+import { About, Contact, Experience, Hero, Navbar, StarsCanvas } from "./components";
 
 const App = () => {
+    // Scroll to top on page load/reload and clear hash
+    useEffect(() => {
+        if (window.location.hash) {
+            window.history.replaceState(null, null, window.location.pathname);
+        }
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-primary">
-                <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-                    <Navbar />
-                    <Hero />
+                <div className="relative">
+                    <div className="absolute inset-0 bg-hero-pattern bg-cover bg-no-repeat bg-center animate-float-bg z-0" />
+                    <div className="relative z-10">
+                        <Navbar />
+                        <Hero />
+                    </div>
                 </div>
                 <About />
-                <Works />
                 <Experience />
-                {/* <Tech /> */}
-                <Feedbacks />
                 <div className="relative z-0">
                     <Contact />
                     <StarsCanvas />

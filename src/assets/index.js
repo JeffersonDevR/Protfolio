@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import video from "./video.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -31,9 +30,6 @@ import vuforia from "./tech/vuforia.png";
 import vagrant from "./tech/vagrant.png";
 import githubblack from "./tech/githubblack.png";
 
-import boga from "./boga.webp";
-import projects_videface from "./projects_videface.webp";
-import rentacar4less from "./rentacar4less.webp";
 import me from "./me.webp";
 import phone from "./phone.svg";
 import email from "./email.svg";
@@ -62,7 +58,6 @@ export {
     tailwind,
     typescript,
     threejs,
-    video,
     c,
     aframe,
     colab,
@@ -72,9 +67,6 @@ export {
     vagrant,
     vuforia,
     githubblack,
-    boga,
-    projects_videface,
-    rentacar4less,
     me,
     phone,
     email,

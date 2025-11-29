@@ -119,9 +119,8 @@ const Contact = () => {
                             value={form.name}
                             onChange={handleChange}
                             placeholder="Nice to meet you! 🤝"
-                            className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                                errors.name ? "border-red-500" : ""
-                            }`}
+                            className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.name ? "border-red-500" : ""
+                                }`}
                         />
                         {errors.name && <span className="text-red-500">Please, write your name here.</span>}
                     </label>
@@ -133,9 +132,8 @@ const Contact = () => {
                             value={form.email}
                             onChange={handleChange}
                             placeholder="Won't spam you! 🙌"
-                            className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                                errors.email ? "border-red-500" : ""
-                            }`}
+                            className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.email ? "border-red-500" : ""
+                                }`}
                         />
                         {errors.email && <span className="text-red-500">Don't forget to write your email.</span>}
                     </label>
@@ -147,9 +145,8 @@ const Contact = () => {
                             value={form.message}
                             onChange={handleChange}
                             placeholder="What you want to say?"
-                            className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                                errors.message ? "border-red-500" : ""
-                            }`}
+                            className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${errors.message ? "border-red-500" : ""
+                                }`}
                         />
                         {errors.message && (
                             <span className="text-red-500">The message can't be empty. Please, don't be shy!</span>
