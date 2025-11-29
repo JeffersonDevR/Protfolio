@@ -50,16 +50,7 @@ const Hero = () => {
                                 LinkedIn
                             </button>
                         </a>
-                        <a
-                            href="https://drive.google.com/file/d/1pOK8GfH6cAEysrBOMBMXXWSjzmzNZmtJ/view?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mb-4 sm:mb-0 sm:mr-4 bg-gradient-to-r from-secondary to-tertiary p-[2px] rounded-[10px] shadow-card"
-                        >
-                            <button className="bg-primary text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                                <strong>CV</strong>
-                            </button>
-                        </a>
+                        
                     </div>
                 </div>
             </div>
